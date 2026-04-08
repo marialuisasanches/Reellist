@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.title span {
+  color: var(--accent);
+}
+
+header button {
+  all: unset;
+  text-decoration: none;
+  color: var(--accent);
+  padding: 10px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+}

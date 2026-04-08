@@ -1,0 +1,21 @@
+:root {
+  --bg-primary: #141414;
+  --bg-card: #1e1e1e;
+  --bg-hover: #2e2e2e;
+  --border: #3a3a3a;
+  --text-primary: #f5f5f5;
+  --text-secondary: #aaaaaa;
+  --accent: #c9a800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Space Grotesk", sans-serif;
+}
