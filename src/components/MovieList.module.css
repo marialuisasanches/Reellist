@@ -1,0 +1,33 @@
+/* BASE: Mobile (3 colunas) */
+.movieList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 15px;
+}
+
+/* TABLET: 4 colunas */
+@media (min-width: 600px) {
+  .movieList {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+}
+
+/* DESKTOP: 5 colunas */
+@media (min-width: 900px) {
+  .movieList {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+}
+
+/* MONITOR GRANDE: 6 colunas */
+@media (min-width: 1200px) {
+  .movieList {
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}

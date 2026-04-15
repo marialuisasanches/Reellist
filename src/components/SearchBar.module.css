@@ -1,12 +1,54 @@
 .searchFilms {
-  padding: 10px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px 14px;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 10px;
+  background-color: var(--bg-card);
+  display: flex;
+  align-items: center;
 }
 
+/* Input */
 .searchFilms input {
   all: unset;
   width: 100%;
   color: var(--text-primary);
   font-size: 14px;
+}
+
+/* Placeholder */
+.searchFilms input::placeholder {
+  color: var(--text-secondary);
+}
+
+/* Tablets */
+@media (min-width: 600px) {
+  .searchFilms {
+    max-width: 400px;
+    padding: 12px 16px;
+  }
+
+  .searchFilms input {
+    font-size: 15px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  .searchFilms {
+    max-width: 500px;
+    margin: 30px auto;
+  }
+
+  .searchFilms input {
+    font-size: 16px;
+  }
+}
+
+/* Telas grandes */
+@media (min-width: 1200px) {
+  .searchFilms {
+    max-width: 600px;
+  }
 }
