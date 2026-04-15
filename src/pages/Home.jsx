@@ -8,6 +8,7 @@ import { getPopularMovies } from "../services/api";
 import styles from "./Home.module.css";
 
 function Home() {
+  const [isSearching, setIsSearching] = useState(false);
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -26,7 +27,7 @@ function Home() {
           reel<span>list</span>
         </div>
 
-        <SearchBar />
+        <SearchBar onSearch={setMovies} setIsSearching={setIsSearching} />
 
         <Link to="/mylist">
           <button className={styles.button}>My List</button>
@@ -36,7 +37,7 @@ function Home() {
       <main className={styles.container}>
         <h2 className={styles.title}>Filmes Populares</h2>
 
-        <MovieList movies={movies} />
+        <MovieList movies={movies} isSearching={isSearching} />
       </main>
     </div>
   );
