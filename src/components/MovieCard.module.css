@@ -11,6 +11,27 @@
   flex-direction: column;
 }
 
+.movieCard {
+  position: relative;
+}
+
+.favoriteButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.favoriteButton:hover {
+  transform: scale(1.2);
+}
+
 /* Usando sua variável de hover */
 @media (hover: hover) {
   .movieCard:hover {
@@ -64,4 +85,19 @@
   .rating {
     font-size: 13px;
   }
+}
+
+.movieCard {
+  position: relative;
+}
+
+.movieCard button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: black;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
 }
