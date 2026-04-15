@@ -3,7 +3,7 @@
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![React Router](https://img.shields.io/badge/React%20Router-7-CA4245?logo=reactrouter&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-0ea5e9)
+
 
 Aplicação web desenvolvida com React + Vite para explorar filmes usando a API do TMDB.
 
