@@ -20,11 +20,11 @@ O projeto permite visualizar filmes populares, buscar títulos em tempo real e c
 
 ### Home
 
-![Home do ReelList](./public/preview-reellist.svg)
+![Home do ReelList](./public/previewhome.png)
 
 ### Minha Lista
 
-![Minha Lista do ReelList](./public/preview-reellist.svg)
+![Minha Lista do ReelList](./public/previewlist.png)
 
 > Substitua as imagens de exemplo por screenshots reais das telas Home e Minha Lista para valorizar seu portfólio.
 
