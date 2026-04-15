@@ -1,4 +1,4 @@
-# ReelList
+# ReellList
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
@@ -132,7 +132,7 @@ Depois, abra a URL exibida no terminal (geralmente http://localhost:5173).
 
 ## Autor
 
-Desenvolvido por Malu Sanches.
+Desenvolvido por Maria Luisa Sanches.
 
 Conecte-se comigo:
 
