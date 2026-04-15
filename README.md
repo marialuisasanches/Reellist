@@ -11,10 +11,8 @@ O projeto permite visualizar filmes populares, buscar títulos em tempo real e c
 
 ## Links
 
-- Repositório: [github.com/seu-usuario/reellist](https://github.com/marialuisasanches/reellist)
+- Repositório: [github.com/marialuisasanches/reellist](https://github.com/marialuisasanches/reellist)
 - Deploy:[https://reellist.vercel.app](https://reellist.vercel.app/)
-
-> Atualize os links acima com seus endereços reais.
 
 ## Imagens
 
@@ -26,7 +24,6 @@ O projeto permite visualizar filmes populares, buscar títulos em tempo real e c
 
 ![Minha Lista do ReelList](./public/previewlist.png)
 
-> Substitua as imagens de exemplo por screenshots reais das telas Home e Minha Lista para valorizar seu portfólio.
 
 ## Visão Geral
 
