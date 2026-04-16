@@ -138,3 +138,7 @@ Conecte-se comigo:
 
 - LinkedIn: [linkedin.com/in/maria-luisa-sanches](https://www.linkedin.com/in/maria-luisa-sanches)
 - E-mail: [marialuisasanches.dev@gmail.com](mailto:marialuisasanches.dev@gmail.com)
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](./LICENSE).
